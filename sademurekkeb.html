@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+ 
+<body>
+ <script>
+ var  say=Number(prompt('eded daxil edin:'))
+ var n=0;
+   function sade_murekkeb(say){
+      for(i=1;i<=say;i++){
+          if(say%i==0){  
+              n=n+1;
+          }
+      }
+      if(n==2){
+          document.write('eded sadedir');
+      }else{
+          document.write('eded murekkebdir');
+      }
+  }
+     
+  sade_murekkeb(say);
+</script>
+</body>
+</html>

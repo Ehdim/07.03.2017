@@ -1,0 +1,18 @@
+<html>
+<head></head>
+<body>
+    <script charset="utf-8">
+        var char = '';
+        var bosluq = '';
+        var n = Number(prompt('Isdediyiniz ededi daxil edin.'))
+        for (var i = 0; i < n; i++) {
+            char = char + '*';
+            for (var j = n; j >0; j--) {
+                bosluq = bosluq + '*';
+            }
+            document.write(char+'<br>' + bosluq  );
+            bosluq = '';
+        }
+    </script>
+</body>
+</html>
